@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    background-color:#E2E6ED;
+    font-family: 'Muli', sans-serif;
+  }
+  .main {
+    background-color:#F6F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 20px;
+  }
+  
+  .main__title {
+    color: #000;
+    font-size: 12px;
+  }
+  .menu__vertical {
+    padding: 0;
+    }
+
+  .menu__vertical li{
+    display: inline;
+    }
+    .menu__vertical li a {
+        font-size:16px;
+        text-decoration: none;
+        float:left;
+        padding: 5px;
+        color: #fff;
+        }
+  /* header */
+  
+  .header {
+    align-items: center;
+    background-color: #E2E6ED;
+    color: white;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    top: 0px;
+    width: 100%;
+  }
+  .header__img {
+    margin-left: 30px;
+    width: 200px;
+    height: auto;
+  }
+  
+  .header__menu {
+    margin-right: 30px;
+  }
+  
+  .header__menu ul {
+    padding: 0;
+    list-style: none;
+  }
+.header__menu li {
+    margin: 10px 0px;
+  } 
+
+  .header__menu li a {
+    color: #000;
+    text-decoration: none;
+  }
+
+   .header__menu--profile {
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .header__menu--profile img {
+    margin-right: 8px;
+    width: 40px;
+  }
+  
+.titlediv{
+    text-align: -webkit-right;
+
+}
+.titlediv .titleDivContainer{
+    background-color: #3B6ABF;
+    width: 97%;
+    display: flex;
+    height: 30px;
+}
+.titlediv p{ 
+    font-size: 12px;
+    color:#fff;
+}
+
+.titleDivContainer img{
+  height: 20px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.titledivDos{
+  text-align: -webkit-right;
+}
+.titledivDos .libraMenu{
+  width: 97%;
+  height: 600px;
+  background-color: #F6F6F6;
+  display: flex;
+}
+.titledivDos .libraMenu .rectangulo{
+  background-color: #929292;
+  width: 450px;
+  height: 80px;
+  border-radius: 10px;
+  margin-left: 20px;
+  position: absolute;
+}
+.logo{
+  text-align: start;
+}
+.rectangulo img{
+  margin-left: 15px;
+  margin-top: 20px;
+  display: flex;
+  width: 160px;
+  position: static;
+}
